@@ -19,7 +19,7 @@ function saveTask($list,$task){
 
 
 if($metodo==='GET'){
-    $$task=readTask($list);
+    $task=readTask($list);
     echo json_encode($task);
     exit;
 }
