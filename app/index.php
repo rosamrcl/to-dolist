@@ -1,4 +1,4 @@
 <?php
-$url="";
-curl_init();
+$url="http://localhost/to-dolist/api/";
+curl_init($url);
 ?>
